@@ -1,0 +1,32 @@
+{
+  "name": "arcgis-snapping-utilities",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Line and point snapping utilities for the ArcGIS SDK for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js  "
+  },
+  "keywords": [
+    "arcgis",
+    "gis",
+    "snapping",
+    "geo"
+  ],
+  "author": "Joey Lovato",
+  "license": "ISC",
+  "dependencies": {
+    "@arcgis/core": "^4.28.10",
+    "@types/geodesy": "^2.2.7",
+    "jest": "^29.7.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.6",
+    "eslint": "^8.56.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "jest": {
+    "transform": {}
+  }
+}
