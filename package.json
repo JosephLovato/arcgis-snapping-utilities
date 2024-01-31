@@ -3,9 +3,13 @@
   "type": "module",
   "version": "1.0.0",
   "description": "Line and point snapping utilities for the ArcGIS SDK for JavaScript",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js  "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JosephLovato/arcgis-snapping-utilities"
   },
   "keywords": [
     "arcgis",
